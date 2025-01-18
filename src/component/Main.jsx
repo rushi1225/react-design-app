@@ -9,7 +9,7 @@ const Main = () => {
             <div className="absolute  sm:mb-[0%] mb-[50%] w-[100%]  flex justify-center items-center">
                 <img src={bgfirst} alt="" className="w-[85%] sm:w-[70%]" />
             </div>
-            <div className="items-center text-center">
+            <div className="items-center text-center relative">
                 <p className="text-4xl sm:text-6xl font-semibold text-[#002834]">
                     Solve problem with an
                     <br />
@@ -21,7 +21,7 @@ const Main = () => {
             </div>
 
 
-            <div className="flex text-center gap-12 items-center font-semibold ">
+            <div className="flex relative text-center gap-12 items-center font-semibold ">
                 <Link to="/" className="bg-[#0075FF] text-white px-12 py-4 rounded-bl-full rounded-r-full hover:text-[#0075FF] hover:border hover:border-[#AEC7E4] hover:bg-white transition-color duration-500"> See our portfolio</Link>
                 <Link to="/" className="px-12 py-4 text-[#0075FF] border border-[#AEC7E4] rounded-bl-full rounded-r-full hover:text-white hover:none hover:bg-[#0075FF] transition-color duration-500">More Info
                 </Link>
